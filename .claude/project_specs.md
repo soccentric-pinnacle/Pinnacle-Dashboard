@@ -1,4 +1,4 @@
-# Pinnacle-Dashboard — specs Remote: `git@github.com:SiliconCentric/Pinnacle-Dashboard.git`
+# Pinnacle-Dashboard — specs Remote: `git@github.com:soccentric-pinnacle/Pinnacle-Dashboard.git`
 Stack: node. A standalone dashboard UI leaf. Runs anywhere; not part of the on-device image. ## Layout * `webui/` — Next.js app-router frontend. Has its own `package.json`, separate from the root one.
 * `contract-tests/` — pytest suite with its own Makefile. Python, not JS.
 * `docker/` — packaging. ## Coupling * **Not proto-coupled to Pinnacle-HAL.** Reads from Pinnacle-Server over HTTP/SSE.
